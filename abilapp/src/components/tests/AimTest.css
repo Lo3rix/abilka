@@ -1,0 +1,42 @@
+.aim-test {
+  text-align: center;
+}
+
+.aim-test h2 {
+  margin-bottom: 20px;
+}
+
+.aim-test .info {
+  margin-bottom: 10px;
+}
+
+.aim-test .game-field {
+  width: 600px;
+  height: 400px;
+  border: 1px solid #ddd;
+  position: relative;
+  margin: 0 auto;
+}
+
+.aim-test .target {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.aim-test button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.aim-test button:hover {
+  background-color: #0056b3;
+}

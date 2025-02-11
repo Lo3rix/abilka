@@ -1,0 +1,55 @@
+.typing-test {
+  text-align: center;
+}
+
+.typing-test .score-time {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.typing-test .text-display {
+  font-family: monospace;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  white-space: pre-wrap;
+  width: 80%;
+  height: 300px;
+  overflow-y: auto;
+  font-size: 24px;
+  outline: none;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.typing-test .text-display .correct {
+  color: green;
+}
+
+.typing-test .text-display .incorrect {
+  color: red;
+}
+
+.typing-test .text-display .current {
+  background-color: yellow;
+}
+
+.typing-test .text-display:focus {
+  outline: none;
+}
+
+.typing-test button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.typing-test button:hover {
+  background-color: #0056b3;
+}

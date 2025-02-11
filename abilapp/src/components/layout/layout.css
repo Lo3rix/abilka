@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.auth-button {
+  padding: 10px 15px;
+  background-color: #4e657f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.auth-button:disabled {
+  background-color: #ccc;
+}
+
+.auth-button:hover:not(:disabled) {
+  background-color: #555;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  color: white;
+  height: 30px;
+}
+
+.navbar div {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-button {
+  margin-left: 10px;
+  background-color: #4e657f;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.navbar-button:hover:not(:disabled) {
+  background-color: #555;
+}
+
+.test-selection {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.test-button button {
+  padding: 10px 20px;
+  background-color: #4e657f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.test-button button:hover {
+  background-color: #555;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.username {
+  font-size: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}

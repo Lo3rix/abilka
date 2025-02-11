@@ -1,0 +1,50 @@
+.reaction-test {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px; /* Достаточная высота для фиксации кнопки */
+  padding: 20px;
+}
+
+.reaction-btn-container {
+  height: 150px; /* Фиксированная высота блока для кнопки */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reaction-btn {
+  border: none;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-start {
+  background-color: #808080;
+  color: #0000ff;
+}
+
+.btn-wait {
+  background-color: #d9534f;
+  cursor: not-allowed;
+}
+
+.btn-go {
+  background-color: #5cb85c;
+}
+
+.reaction-btn:focus {
+  outline: none;
+}
+
+.reaction-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
