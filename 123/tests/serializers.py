@@ -74,3 +74,8 @@ class LeaderboardSerializer(serializers.ModelSerializer):
     class Meta:
         model = Result
         fields = ('username', 'avatar', 'score', 'average_time', 'attempt_count', 'created_at')
+
+class UserProfileSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CustomUser
+        fields = ['username', 'email', 'avatar', 'created_at', 'updated_at']

@@ -1,6 +1,6 @@
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
-from rest_framework import generics, permissions, status, serializers
+from rest_framework import generics, permissions, status, serializers, viewsets
 from django.utils import timezone
 from rest_framework.request import Request
 from rest_framework.response import Response
@@ -13,7 +13,7 @@ from django.template.loader import render_to_string
 
 from .models import CustomUser, Test, Result, TypingTestText
 from .serializers import (CustomUserSerializer, TestSerializer, ResultSerializer,
-                          ChangePasswordSerializer, TypingTestTextSerializer, LeaderboardSerializer)
+                          ChangePasswordSerializer, TypingTestTextSerializer, LeaderboardSerializer, UserProfileSerializer)
 from .pagination import CustomPagination
 
 class RegisterView(generics.CreateAPIView):
